@@ -235,13 +235,13 @@ h2 {
 .cert-grid, .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 24px;
+    gap: 20px;
 }
 
 .cert-card, .project-card {
     background: white;
     border-radius: 20px;
-    padding: 24px;
+    padding: 14px;
     box-shadow: var(--shadow-sm);
     border: 1px solid var(--gray-200);
     transition: all 0.2s;
@@ -386,4 +386,19 @@ footer {
     box-shadow: var(--shadow-sm);
     border: none;
     cursor: pointer;
+}
+#profile-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--gray-200);
+}
+#certifications h3{
+    display: inline-block;
+    margin-left: 10px;
+}
+#projects h3{
+    display: inline-block;
+    margin-left: 10px;
 }
