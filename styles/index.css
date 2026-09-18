@@ -337,23 +337,29 @@ h2 {
 
 .contact-links {
     display: flex;
-    gap: 24px;
+    gap: 5px;
     flex-wrap: wrap;
     margin-top: 24px;
 }
-
+.contact-links img {
+    width: 40px;
+}
+.contact-info {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.contact-label, .contact-value {
+    display: block;
+    text-align: center;
+}
 .contact-link {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     text-decoration: none;
     color: var(--gray-800);
     font-weight: 500;
-}
-
-.contact-link i {
-    font-size: 1.5rem;
-    color: var(--primary);
+    border-radius: 10px;
 }
 
 footer {
